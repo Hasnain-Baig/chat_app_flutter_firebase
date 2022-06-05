@@ -33,7 +33,8 @@ class _ChatUserInfoScreenState extends State<ChatUserInfoScreen> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       GestureDetector(
-                        child: Icon(Icons.arrow_back),
+                        child: Icon(Icons.arrow_back,
+                            color: Theme.of(context).colorScheme.onPrimary),
                         onTap: () {
                           Navigator.pop(context);
                         },
